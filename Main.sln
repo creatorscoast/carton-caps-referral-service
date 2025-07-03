@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Referral.Api", "src\Referral.Api\Referral.Api.csproj", "{35248A00-FB5F-4F2A-8C8E-AF21CF8EF0A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Referral.Api.Tests.Integration", "src\Referral.Api.Tests.Integration\Referral.Api.Tests.Integration.csproj", "{DB0B36BC-BEE1-4364-A9B4-38F1DCAB4141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35248A00-FB5F-4F2A-8C8E-AF21CF8EF0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35248A00-FB5F-4F2A-8C8E-AF21CF8EF0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35248A00-FB5F-4F2A-8C8E-AF21CF8EF0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35248A00-FB5F-4F2A-8C8E-AF21CF8EF0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0B36BC-BEE1-4364-A9B4-38F1DCAB4141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0B36BC-BEE1-4364-A9B4-38F1DCAB4141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0B36BC-BEE1-4364-A9B4-38F1DCAB4141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0B36BC-BEE1-4364-A9B4-38F1DCAB4141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCF3E299-8159-4F42-AF7D-81977629A76E}
+	EndGlobalSection
+EndGlobal

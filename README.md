@@ -12,6 +12,9 @@ Referral Microservice handles generation of user referral code, creation of refe
 - Integrations test project was added over unit test to showcase a hollistic testing approach using the build in support for .net to create a fully in memory api.
 - Sqlite was used for easier development and mocking but can easily be swapped for any other storage solution.
 - Notes were left in key areas and the author is aware of alternative improvements and changes like layer structure clean/vertical slice but kept everything self contained. Other areas like referral code generation were implemented in naive way with the knowledge that it could be put behind a contract and/or easily swapped out.
+
+  https://www.loom.com/share/0426437b0ea740d0b38a2c1338fb9b23
+  
 ## Running
 
 Project is completely selft contained but an appservice instance has been created to explore the API and FrontEnd developers.
